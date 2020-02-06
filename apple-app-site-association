@@ -1,15 +1,9 @@
 {
     "applinks": {
         "apps": [],
-        "details": [
-            {
-                "appID": "9JA89QQLNQ.com.apple.wwdc",
-                "paths": [ "/wwdc/news/", "/videos/wwdc/2015/*"]
-            },
-            {
-                "appID": "ABCD1234.com.apple.wwdc",
-                "paths": [ "*" ]
-            }
-        ]
+        "details": [{
+            "appID": "RR5A6V567A.com.open4u.Open4U",
+            "paths": ["*"]
+        }]
     }
 }
