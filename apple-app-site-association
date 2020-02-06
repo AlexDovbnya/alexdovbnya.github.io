@@ -1,9 +1,26 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": [{
-            "appID": "RR5A6V567A.com.open4u.Open4U",
-            "paths": ["*"]
-        }]
-    }
+  "applinks": {
+    "apps": [],
+    "details": [{
+        "appID": "RR5A6V567A.com.open4u.Open4U",
+        "paths": ["*"]
+      },
+      {
+        "appIDs": ["RR5A6V567A.com.open4u.Open4U"],
+        "components": [{
+            "#": "no_universal_links",
+            "exclude": true,
+            "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+          },
+          {
+            "/": "/buy/*",
+            "comment": "Matches any URL whose path starts with /buy/"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": ["RR5A6V567A.com.open4u.Open4U"]
+  }
 }
