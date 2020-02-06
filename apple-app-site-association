@@ -1,9 +1,10 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": [{
-            "appID": "RR5A6V567A.com.open4u.Open4U",
-            "paths": ["*"]
-        }]
-    }
+	"applinks": {
+		"apps": [],
+		"details": [{
+			"RR5A6V567A.com.open4u.Open4U": {
+				"path": "*"
+			}
+		}]
+	}
 }
